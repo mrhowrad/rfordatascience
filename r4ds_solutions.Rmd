@@ -1,6 +1,8 @@
 ---
 title: "R4ds_solutions"
-output: html_document
+author: "Kyle Howard"
+date: "2021-03-29"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
