@@ -14,9 +14,10 @@ knitr::opts_chunk$set(echo = TRUE)
 I only began documenting my workings for the [R for Data science textbook exercises](https://r4ds.had.co.nz) from Exercise 6 onwards. 
 This document serves as a way to remember the solutions and how I arrived at them, and to help learn R markdown and github processes.
 
-#Geometric Objects, Exercise 6:
-#Recreate the R code necessary to generate the following graphs
+## 3.6 Geometric Objects
+### Exercise 6: Recreate the R code necessary to generate the following graphs
 
+```{r 3.6.6, include=false}
 library(ggplot2)
 
 ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
@@ -45,6 +46,7 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 
 ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut))
+```
 
 #3.7.1 Statistical transformation exercises: 
 #1 the default geom with stat_summary is geom_pointrange (help tells you this )
